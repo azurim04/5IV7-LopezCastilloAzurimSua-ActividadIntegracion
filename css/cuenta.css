@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: #FFF9ED;
+}
+
+.header {
+    width: 100%;
+    background: no-repeat 100% url(../img/header.png);
+    margin-bottom: 20px;
+    /*position: fixed;*/
+}
+
+.wrapper1 {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.wrapper2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+    padding: 10px 0;
+}
+
+.datos{
+    margin-left: 360px;
+    background-color: aqua;
+    width: 40%;
+    height: 50vh;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-left: 50px;
+    text-align: left;
+}
+
+header nav {
+    float: right;
+    line-height: 150px;
+}
+
+header nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    line-height: normal;
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+
+header nav a:hover {
+    background: #ffe6a7;
+    color: #000;
+}
+
+.main-content {
+    padding-top: 50px;
+    /*padding-top: 150px;*/
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/editarproducto.css">
+    <title>Mi portavasos</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper1">
+            <div class="baner"></div>
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logotipo de Canción Café" id="logo">
+            </div>
+            <nav>
+                <a href="menu.html" id="menu">Menú</a>
+                <a href="" id="menu">Sucursales</a>
+                <a href="" id="menu">Nosotros</a>
+                <a href="cuenta.html" id="menu">Mi cuenta</a>
+                <a href="portavasos.html" id="menu">Mi portavasos</a>
+                <a href="index.html" id="menu">Salir</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <div class="title">
+        <img src="../img/icono.png" alt="icono" id="icono">
+        <h1>Mi portavasos</h1>
+    </div>
+    <br>
+    <section class="main-content wrapper2">
+        <form method="post" name="actualizarProducto" action="actualizarProducto">
+            <table>
+                <tr>
+                    <td>Producto:</td>
+                    <td>Capuccino</td>
+                </tr>
+                <tr>
+                    <td>Cantidad:</td>
+                    <td>
+                        <select name="cantidad" id="cantidad">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tamano:</td>
+                    <td>
+                        <select name="tamano" id="tamano">
+                            <option value="Chico">Chico</option>
+                            <option value="Mediano">Mediano</option>
+                            <option value="Grande">Grande</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Precio:</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Guardar"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <a href="index.html">Regresar al Menu Principal</a>
+</body>
+
+</html>

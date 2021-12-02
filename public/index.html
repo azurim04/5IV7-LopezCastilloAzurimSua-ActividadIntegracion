@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class="main-content">
+        <img src="../img/logo.png" alt="Logotipo de Canción Café">
+    </div>
+    <br>
+    <div class="form">
+        <div class="inicio">
+            Entra y conoce nuestros productos
+        </div>
+        <br><br>
+        <form id="formulario" method="POST" action="/autenticar">
+            <input type="text" name="correo" id="correo" class="texto" placeholder="Correo" onpaste="return false;" ondrop="return false;" minlength="16">
+            <br>
+            <input type="password" name="password" id="password" class="texto" placeholder="Contraseña" onpaste="return false;" ondrop="return false;" minlength="8">
+            <br>
+            <input type="submit" class="submit" value="Iniciar sesión">
+        </form>
+        <br><br>
+        <div class="registro">
+            ¿Aun no tienes cuenta?, <a href="./registro.html">! Registrate ¡</a>
+        </div>
+    </div>
+    <br>
+    <footer class="footer">
+        Este es el footer :3
+    </footer>
+</body>
+
+</html>
